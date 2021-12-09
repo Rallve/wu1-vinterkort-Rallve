@@ -10,7 +10,8 @@
 main{
     display: flex;
     justify-content: center;
-    margin-top: 5rem;
+    align-items: center;
+    margin-top: 0rem;
 }
 
 body{
@@ -46,3 +47,11 @@ body{
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
 }
+
+.circle{
+    background: radial-gradient(ellipse at center, rgba(255,255,255,1) 30%,rgba(255,255,255,0) 150%,rgba(255,255,255,0) 0%);
+    border-radius: 0%;
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+}
+
