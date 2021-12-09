@@ -1,11 +1,6 @@
-#card-front{
-    border: 0.2rem solid grey;
-    width: 100px;
-    height: 70px;
-    display: flex;
-    justify-self: center;
+.card-front{
     background-color: white;
-    padding: 10rem;
+    border: 1rem solid grey;
 }
 
 .flip-card:hover .flip-card-inner{
@@ -24,9 +19,10 @@ body{
 
 .flip-card{
     background-color: transparent;
-    width: auto;
-    height: auto;
+    width: 600px;
+    height: 400px;
     perspective: 1000px;
+    border: 1px  #f1f1f1;
 }  
 
 .flip-card-inner{
@@ -39,4 +35,14 @@ body{
 
 .card-back{
     background-color: white;
+    transform: rotateY(180deg);
+    border: 1rem solid white;
+}
+
+.card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
 }
