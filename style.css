@@ -63,7 +63,7 @@ h1, h2, h3{
 }
 
 h1{
-    transform: translate(-50%, -180%);
+    transform: translate(-50%, -200%);
     font-size: 70px;
     color: rgb(210,38,38);
 }
