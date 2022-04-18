@@ -55,34 +55,27 @@ body{
     top: 0; left: 0; right: 0; bottom: 0;
 }
 
-h1, h2, h3, h4{
+h1, h2, h3{
     position: absolute;
     top: 50%;
     left: 50%;
     font-family: 'Mountains of Christmas', cursive;
-    text-align: center;
 }
 
 h1{
-    transform: translate(-50%, -280%);
-    font-size: 55px;
+    transform: translate(-50%, -200%);
+    font-size: 70px;
     color: rgb(210,38,38);
 }
 
 h2{
-    transform: translate(-50%, -180%);
+    transform: translate(-50%, -100%);
     font-size: 60px;
 }
 
 h3{
-    transform: translate(-50%, 100%);
+    transform: translate(-50%, 40%);
     font-size: 50px;
-    color: rgb(210,38,38);
-}
-
-h4{
-    transform: translate(-50%, -55%);
-    font-size: 45px;
     color: rgb(210,38,38);
 }
 
